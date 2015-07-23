@@ -1,8 +1,8 @@
 {
   "name": "checkrunning",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "Check if process is running",
-  "bin":  "index.js",
+  "bin": "index.js",
   "keywords": [
     "process",
     "scripting",
