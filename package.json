@@ -1,6 +1,6 @@
 {
   "name": "checkrunning",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Check if process is running, output message & exit(1) if it isn't",
   "bin": "index.js",
   "keywords": [
