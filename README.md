@@ -1,3 +1,7 @@
+# Install
+
+`npm install checkrunning`
+
 # Usage
 
 I put this in `npm scripts` to check if e.g. mongod is running before I start my
