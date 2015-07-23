@@ -7,7 +7,8 @@ application. Example package.json:
   ...
   "scripts" : {
     "start"      : "npm run checkmongo && npm server/server-that-requires-mongo.js",
-    "checkmongo" : "node ./node_modules/checkrunning mongod"
+    "checkmongo" : "checkrunning mongod",
+    "test"       : "checkrunning mysqld && mocha test" // <-- alternately
   }
   ...
 }
@@ -26,3 +27,6 @@ to let you know, then `exit(1)` so further scripts won't run.
                 ||----w |
                 ||     ||
 ```
+
+# Notes
+Relies on machine having `pgrep` installed (most mac & linux machines should)
